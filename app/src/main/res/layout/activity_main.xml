@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dang="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <com.dxy.customprogressbar.view.HorizontalProgressBar
+        android:id="@+id/hpb_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="10"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        dang:progress_text_color="#ffff0000"
+        dang:progress_un_reach_color="#44ff0000"
+        dang:progress_reach_color="#ffff0000"
+        />
+        <com.dxy.customprogressbar.view.HorizontalProgressBar
+            android:id="@+id/hpb_progress_bar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="20"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            dang:progress_text_color="#32CD32"
+            dang:progress_un_reach_color="#43CD80"
+            dang:progress_reach_color="#32CD32"
+            />
+        <com.dxy.customprogressbar.view.HorizontalProgressBar
+            android:id="@+id/hpb_progress_bar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="50"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            dang:progress_text_color="#0000FF"
+            dang:progress_un_reach_color="#1C86EE"
+            dang:progress_reach_color="#0000FF"
+            />
+
+        <com.dxy.customprogressbar.view.CircleProgressBar
+            android:id="@+id/cpb_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="10"
+            dang:radius="60dp"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            dang:progress_text_color="#ff000000"
+            dang:progress_text_size="20sp"
+            dang:progress_un_reach_color="#ADFF2F"
+            dang:progress_reach_color="#FF00FF"
+            />
+
+        <com.dxy.customprogressbar.view.CircleProgressBar
+            android:id="@+id/cpb_progress_bar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="40"
+            dang:radius="60dp"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            dang:progress_text_color="#ff000000"
+            dang:progress_text_size="20sp"
+            dang:progress_un_reach_color="#FFFF00"
+            dang:progress_reach_color="#7D26CD"
+            />
+    </LinearLayout>
+</ScrollView>
+
