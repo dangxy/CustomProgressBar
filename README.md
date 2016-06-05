@@ -4,6 +4,6 @@
 
 ## 效果图
 
- ![Alt text](./ProgressBar.gif)
+
 
 
