@@ -1,4 +1,4 @@
-package com.dxy.customprogressbar.view;
+package com.dangxy.progressbar;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,8 +7,6 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.widget.ProgressBar;
-
-import com.dxy.customprogressbar.R;
 
 /**
  * Created by dangxueyi on 16/6/5.
