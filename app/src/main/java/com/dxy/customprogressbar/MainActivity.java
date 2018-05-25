@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private CircleProgressBar circleProgressBar1;
 
     public static  final  int MESSAGE_UPDATE=0X11;
-    private Handler handler = new Handler(){
+    private  Handler handler = new Handler(){
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);

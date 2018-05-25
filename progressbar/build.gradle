@@ -39,7 +39,7 @@ dependencies {
 }
 publish {
     userOrg = 'dangxy'
-    groupId = 'com.dangxy.progressbar'//jcenter上的路径
+    groupId = 'com.dangxy'//jcenter上的路径
     artifactId = 'progressbar'//项目名称
     publishVersion = '1.0.0'//版本号
     desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
