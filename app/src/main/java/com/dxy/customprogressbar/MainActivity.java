@@ -1,16 +1,16 @@
 package com.dxy.customprogressbar;
 
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
-import com.dxy.customprogressbar.view.CircleProgressBar;
-import com.dxy.customprogressbar.view.HorizontalProgressBar;
+import com.dangxy.progressbar.CircleProgressBar;
+import com.dangxy.progressbar.HorizontalProgressBar;
 
 public class MainActivity extends AppCompatActivity {
 
-    private  HorizontalProgressBar horizontalProgressBar;
+    private HorizontalProgressBar horizontalProgressBar;
     private  HorizontalProgressBar horizontalProgressBar1;
     private  HorizontalProgressBar horizontalProgressBar2;
 
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private CircleProgressBar circleProgressBar1;
 
     public static  final  int MESSAGE_UPDATE=0X11;
-    private Handler handler = new Handler(){
+    private  Handler handler = new Handler(){
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
