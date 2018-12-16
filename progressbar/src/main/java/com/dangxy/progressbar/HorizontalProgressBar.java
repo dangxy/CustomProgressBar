@@ -7,7 +7,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.widget.ProgressBar;
-git s
+
 /**
  * Created by dangxueyi on 16/6/5.
  */
